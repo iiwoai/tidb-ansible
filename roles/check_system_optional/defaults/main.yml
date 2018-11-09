@@ -1,19 +1,19 @@
 ---
 
 # CPU
-tidb_min_cpu: 8
-tikv_min_cpu: 8
-pd_min_cpu: 4
-monitor_min_cpu: 4
+tidb_min_cpu: 2
+tikv_min_cpu: 2
+pd_min_cpu: 2
+monitor_min_cpu: 2
 
 # Mem
-tidb_min_ram: 16000
-tikv_min_ram: 16000
-pd_min_ram: 8000
-monitor_min_ram: 8000
+tidb_min_ram: 1600
+tikv_min_ram: 1600
+pd_min_ram: 800
+monitor_min_ram: 800
 
 # Disk
-tidb_min_disk: 500000000000
-tikv_min_disk: 500000000000
-pd_min_disk: 200000000000
-monitor_min_disk: 500000000000
+tidb_min_disk: 50000000
+tikv_min_disk: 50000000
+pd_min_disk: 20000000
+monitor_min_disk: 50000000
